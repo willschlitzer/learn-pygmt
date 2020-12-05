@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 .idea/
 *.cpt
+/Untitled.ipynb
+/example_cpt.txt
+/example_cpt
