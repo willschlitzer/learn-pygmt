@@ -40,7 +40,7 @@ fig.show()
 # ``projection``.
 
 fig = pygmt.Figure()
-fig.grdimage(grid=grid, frame=True, projection="M6i", cmap="geo")
+fig.grdimage(grid=grid, frame=True, projection="M15c", cmap="geo")
 fig.show()
 
 ########################################################################################
@@ -52,7 +52,7 @@ fig.show()
 # and ``x+lElevation`` and ``y+lm`` set the x- and y-axis labels for the color bar.
 
 fig = pygmt.Figure()
-fig.grdimage(grid=grid, frame=True, projection="M6i", cmap="geo")
+fig.grdimage(grid=grid, frame=True, projection="M15c", cmap="geo")
 fig.colorbar(frame=["p3000", "x+lElevation", "y+lm"])
 fig.show()
 
@@ -76,7 +76,7 @@ fig.show()
 
 fig = pygmt.Figure()
 pygmt.makecpt(cmap="jet", series="-9000/3000", continuous=True)
-fig.grdimage(grid=grid, projection="M6i", frame=True)
+fig.grdimage(grid=grid, projection="M15c", frame=True)
 fig.colorbar(frame=["p3000", "x+lElevation", "y+lm"])
 fig.show()
 
@@ -90,6 +90,6 @@ fig.show()
 
 fig = pygmt.Figure()
 pygmt.makecpt(cmap="jet", series="-9000/3000/1500", continuous=False)
-fig.grdimage(grid=grid, projection="M6i", frame=True)
+fig.grdimage(grid=grid, projection="M15c", frame=True)
 fig.colorbar(frame=["p1500", "x+lElevation", "y+lm"])
 fig.show()
