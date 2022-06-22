@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 .idea/
 *.cpt
-/Untitled.ipynb
+/old_notebooks/Untitled.ipynb
 /example_cpt.txt
 /example_cpt
